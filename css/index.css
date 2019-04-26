@@ -158,6 +158,7 @@ header nav {
 }
 header nav a {
     text-decoration: none;
+    color: black;
 
 }
 footer {
@@ -291,9 +292,28 @@ footer nav a {
 .card-group {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    justify-content: space-between;
+    padding-right: 20px;
 }
 
 .card {
     width: 49%;
+    margin-bottom: 40px;
+    border-bottom: 1px dashed black;
+    padding: 20px;
+}
+
+.card .button {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.bottom-content-about {
+    margin-bottom: 20px;
+    padding: 15px;
 }
